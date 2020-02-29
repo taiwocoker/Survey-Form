@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* body */
+body{
+    font-family: 'Roboto', 'sans-serif';
+    line-height: 1.4;
+    background-color: blueviolet;
+}
+
+#header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  height: 100%;
+  padding: 0 2rem;
+  color: azure;
+}
+
+#contact .contact-form .form-group{
+  margin: 0.75rem;
+  color: azure;
+}
+
+#contact .contact-form .label{
+  display: block;
+  color: azure;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea,
+#contact .contact-form select{
+  width: 100%;
+  padding: 0.5rem;
+
+}
+
+.container{
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+  max-width: 1100px;
+}
